@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    background-color: #0F0F0F;
+}
+
+.container {
+   height: 100%;
+}
+
+.website, .website-1 {
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.website img {
+    width: 125px;
+}
+
+.website-1 img {
+    width: 50px;
+}
+
+.website:hover, .website-1:hover {
+    transform: scale(1.1);
+}
